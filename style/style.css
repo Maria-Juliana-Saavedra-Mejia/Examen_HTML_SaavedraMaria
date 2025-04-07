@@ -11,6 +11,9 @@ body{
     overflow-x: hidden;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 .Seccion1__Cuadro{
     position: sticky;
     top: -20vw;
@@ -232,10 +235,87 @@ body{
     background-color: white;
 }
 .Seccion1__FORM--boton{
-    height: 2vw;
-    width: 5vw;
+    position: relative;
+    height: 2.5vw;
+    width: 8vw;
     background-color: #3a68d6;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    top: -8vw;
+    left: 11vw;
+    font-family: 'regular';
+    font-size: 0.9vw;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+.Seccion1__text{
+    position: relative;
+    top: -40vw;
+    left: 45vw;
+    width: 40vw;
+    height: 30vw;
+    text-align: center;
+    align-items: center;
+}
+.Seccion1__text--ingreso{
+    position: relative;
+    font-family: 'regular';
+    font-size: 3vw;
+    color: black;
+}
+.Seccion1__text--debido{
+    position: relative;
+    font-family: 'ligth';
+    font-size: 1.5vw;
+    color: black;
+    top: 1vw;
+}
+.Seccion1__text--boton{
+    position: relative;
+    height: 2.5vw;
+    width: 8vw;
+    background-color: #3a68d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 3vw;
+    left: 18vw;
+    font-family: 'regular';
+    font-size: 0.9vw;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.seccion2__TEXT--titulo{
+    position: relative;
+    font-family: 'ligth';
+    font-size: 3.5vw;
+    color: black;
+    top: -20vw;
+    left: 30vw;
+}
+.seccion2__TEXT--text{
+    position: relative;
+    font-family: 'ligth';
+    font-size: 2vw;
+    color: black;
+    top: -15vw;
+    left: 5vw;
+    text-align: center;
+    width: 40vw;
+}
+.seccion2__TEXT--Conocer{
+    position: relative;
+    font-family: 'ligth';
+    font-size: 1.5vw;
+    color: black;
+    top: -13vw;
+    left: 16vw;
 }
