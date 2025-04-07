@@ -396,3 +396,49 @@ html{
     top: -43vw;
     left: 35vw;
 }
+.img4{
+    position: relative;
+    width: 30vw;
+    top: -40vw;
+}
+.img5{
+    position: relative;
+    width: 35vw;
+    top: -42vw;
+}
+.img6{
+    position: relative;
+    width: 30vw;
+    top: -44vw;  
+}
+.img7{
+    position: relative;
+    width: 30vw;
+    top: -44vw;   
+}
+.img8{
+    position: relative;
+    width: 20vw;
+    top: -46vw;  
+    left: 25vw;
+}
+.img9{
+    position: relative;
+    width: 25vw;
+    top: -44vw;  
+    left: 30vw;
+}
+.img10{
+    position: relative;
+    width: 1.5vw;
+    left: 47vw;
+    top: -40vw; 
+}
+.seccion3__TEXT--Conocer{
+    position: relative;
+    font-family: 'ligth';
+    font-size: 1.5vw;
+    color: black;
+    top: -43vw;
+    left: 41vw;
+}
