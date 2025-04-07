@@ -319,3 +319,15 @@ html{
     top: -13vw;
     left: 16vw;
 }
+.img2{
+    position: relative;
+    width: 1.5vw;
+    left: 25vw;
+    top: -11vw;
+}
+.img3{
+    position: relative;
+    width: 60vw;
+    left: 40vw;
+    top: -55vw;
+}
